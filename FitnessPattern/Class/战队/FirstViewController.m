@@ -806,6 +806,7 @@
         {
             [nameLB setText:nameString];
         }
+        [nameLB removeFromSuperview];
         [myCell.contentView addSubview:nameLB];
         
         
@@ -836,7 +837,6 @@
             
             [publishDateLB setText:[NSString stringWithFormat:@"%@",[dataDic objectForKey:@"publishDate"]]];
             [publishDateLB setTextColor:[UIColor colorWithRed:157.0/255.0 green:157.0/255.0 blue:162.0/255.0 alpha:1]];
-            
             [myCell.contentView addSubview:publishDateLB];
         }
         

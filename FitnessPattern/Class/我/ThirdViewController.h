@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AppDelegate.h"
 @interface ThirdViewController : UIViewController
 
 
@@ -32,6 +32,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *teamNameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *teamSloganLB;
 @property (strong, nonatomic) IBOutlet UITableView *teamMovementTable;
+
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *myNavRightButtonItem;
 - (IBAction)selectTeamOrMineView:(UISegmentedControl *)sender;
 - (IBAction)showSettingVCAction:(id)sender;
 

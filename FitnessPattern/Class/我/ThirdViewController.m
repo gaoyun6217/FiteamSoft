@@ -15,6 +15,8 @@
     
     NSMutableDictionary *_teamDetailDic;
     NSMutableArray *_teamMemberMovementsArr;
+    
+    BOOL myTeam;//显示附近战队页面
 }
 @end
 
@@ -25,7 +27,7 @@
     // Do any additional setup after loading the view.
     
     [self loadTheSubviews];
-    
+    myTeam=YES;
     [self loadDataSourceOfTeamDetail];
     [self loadTheDataSourceOfMyMovement];
     
@@ -34,7 +36,20 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
+    if (myTeam == YES)
+    {
+        _myNavRightButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navigationbar_calendar"] style:UIBarButtonItemStyleDone target:self action:@selector(calendar)];
+    }else
+    {
+        _myNavRightButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:UIBarButtonItemStyleDone target:self action:@selector(setting)];
+    }
+    [self.navigationItem setRightBarButtonItem:_myNavRightButtonItem];
     [self.tabBarController.tabBar setHidden:NO];
+    
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -174,6 +189,7 @@
     if (myCell == nil) {
         if ([tableView isEqual:self.myMovementTable])
         {
+            
             myCell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"MovementCell" forIndexPath:indexPath];
             
             NSDictionary *movementDic = [_myMovementsArr objectAtIndex:indexPath.row];
@@ -266,6 +282,9 @@
             [UIView animateWithDuration:0.3 animations:^{
                 [self.myTeamView setAlpha:1.0];
             } completion:nil];
+                _myNavRightButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navigationbar_calendar"] style:UIBarButtonItemStyleDone target:self action:@selector(calendar)];
+                [self.navigationItem setRightBarButtonItem:_myNavRightButtonItem];
+
         }
             break;
         case 1:
@@ -274,8 +293,10 @@
             [UIView animateWithDuration:0.3 animations:^{
                 [self.myTeamView setAlpha:0.0];
             } completion:nil];
+            _myNavRightButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:UIBarButtonItemStyleDone target:self action:@selector(setting)];
+            [self.navigationItem setRightBarButtonItem:_myNavRightButtonItem];
         }
-            break;
+        break;
             
         default:
             break;

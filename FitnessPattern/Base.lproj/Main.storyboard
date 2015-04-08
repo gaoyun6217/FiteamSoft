@@ -3496,11 +3496,11 @@
             </objects>
             <point key="canvasLocation" x="-1333.5" y="-1828"/>
         </scene>
-        <!--战队-->
+        <!--Navigation Controller-->
         <scene sceneID="l7C-xG-a4e">
             <objects>
                 <navigationController id="EI6-VS-VIU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="战队" image="tabbar_btn_team_normal.png" id="10F-rI-QoY"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_btn_team_normal.png" id="10F-rI-QoY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sb2-3n-vxG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3767,11 +3767,11 @@
             </objects>
             <point key="canvasLocation" x="-3349.5" y="-1282"/>
         </scene>
-        <!--消息-->
+        <!--Navigation Controller-->
         <scene sceneID="Edk-uQ-hTA">
             <objects>
                 <navigationController id="elU-pl-fAT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="消息" image="tabbar_btn_chat_normal.png" id="l7k-uz-TfO"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_btn_chat_normal.png" id="l7k-uz-TfO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vLu-49-JOF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5500,6 +5500,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="myMovementTable" destination="bKW-jv-myc" id="bno-mT-YV3"/>
+                        <outlet property="myNavRightButtonItem" destination="xnx-MP-aWX" id="BZM-br-oPA"/>
                         <outlet property="myTeamView" destination="aOU-vq-8ce" id="vMy-6l-B1M"/>
                         <outlet property="teamMovementTable" destination="L9X-KX-FY3" id="QAu-ns-UQY"/>
                         <outlet property="teamNameLabel" destination="Y0b-De-Q3v" id="xPJ-jr-PhS"/>
@@ -5616,11 +5617,11 @@
             </objects>
             <point key="canvasLocation" x="-2938.5" y="1310"/>
         </scene>
-        <!--我-->
+        <!--Navigation Controller-->
         <scene sceneID="Qen-s6-O2E">
             <objects>
                 <navigationController id="yeI-AR-6S7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我" image="tabbar_btn_me_normal.png" id="kDR-Dq-nd5"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_btn_me_normal.png" id="kDR-Dq-nd5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BCK-ir-A4k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

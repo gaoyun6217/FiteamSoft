@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC076A1A-E50C-4A82-A033-31EECDDBCE7B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FitnessPattern</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>361EA97AB63F46DEE1962E4C005BEFD30173EE4D</key>
+		<string>https://git.oschina.net/lucyH/FiteamSoftProject.git</string>
+		<key>F4C4D1692AC0B8F605FED66CBD0E109151D67F75</key>
+		<string>https://git.oschina.net/lucyH/Pong.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FitnessPattern/FitnessPattern.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>361EA97AB63F46DEE1962E4C005BEFD30173EE4D</key>
+		<string>../../..</string>
+		<key>F4C4D1692AC0B8F605FED66CBD0E109151D67F75</key>
+		<string>../../../../%E7%BB%83%E4%B9%A0</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/lucyH/FiteamSoftProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>361EA97AB63F46DEE1962E4C005BEFD30173EE4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4C4D1692AC0B8F605FED66CBD0E109151D67F75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E7%BB%83%E4%B9%A0</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>361EA97AB63F46DEE1962E4C005BEFD30173EE4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FiteamSoftProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

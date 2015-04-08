@@ -1,0 +1,28 @@
+//
+//  FitnessPattern.pch
+//  FitnessPattern
+//
+//  Created by 胡晓阳 on 15/1/16.
+//  Copyright (c) 2015年 HuntingTime. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PopupView.h"
+#import "AppDelegate.h"
+#import "HPublicDefineHeader.h"
+#import "publicVC.h"
+#import "Common.h"
+#endif
+
+#ifndef FitnessPattern_FitnessPattern_pch
+#define FitnessPattern_FitnessPattern_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+#endif
